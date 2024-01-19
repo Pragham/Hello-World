@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Pragham_Hello_World_1705666666302-pr-trigger-input-set
+  identifier: Build_Pragham_Hello_World_1705666666302prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Test
+  pipeline:
+    identifier: Build_Pragham_Hello_World_1705666666302
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
