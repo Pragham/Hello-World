@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Pragham_Hello_World_1705666666302-push-trigger-input-set
+  identifier: Build_Pragham_Hello_World_1705666666302pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Test
+  pipeline:
+    identifier: Build_Pragham_Hello_World_1705666666302
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
